@@ -56,15 +56,55 @@
 #     print("Python" in course)
 
 
-good_credit = False
-bad_credit = True
-price = 1000000
-down_payment_good = 1000000 * .1
-down_payment_bad = 1000000 * .2
+# good_credit = False
+# bad_credit = True
+# price = 1000000
+# down_payment_good = price * .1
+# down_payment_bad = price * .2
 
-if good_credit:
-    print('Your down payment is: ' + "$" + str(down_payment_good))
-elif bad_credit:
-    print('Your down payment is: ' + "$" + str(down_payment_bad))
+# if good_credit:
+#     print('Your down payment is: ' + "$" + str(down_payment_good))
+# elif bad_credit:
+#     print('Your down payment is: ' + "$" + str(down_payment_bad))
+# else:
+#     print('Get lost!')
+
+# has_high_income = True
+# has_good_credit = False
+
+# if has_high_income and has_good_credit:
+#     print("Eligible for Loan")
+# else:
+#     print("Not Eligible for Loan")
+
+# has_criminal_record = True
+# has_good_credit = True
+
+# if has_good_credit and not has_criminal_record:
+#     print("Eligible for Loan")
+# else:
+#     print("Not Eligible for Loan")
+
+# has_criminal_record = True
+# has_good_credit = True
+
+# if has_good_credit and not has_criminal_record:
+#     print("Eligible for Loan")
+# else:
+#     print("Not Eligible for Loan")
+
+
+# temperature = 86
+# if temperature >= 85:
+#     print("it's a hot day")
+# else:
+#     print('it\'s not a hot day')
+
+username = input("Name: ")
+
+if len(username) <= 3:
+    print('name must be at least 4 characters')
+elif len(username) > 50:
+    print('name must be less than 50 characters')
 else:
-    print('Get lost!')
+    print('looks good')
