@@ -109,13 +109,38 @@
 # else:
 #     print('looks good')
 
-weight = input('How much do you weigh? ')
-unit_of_weight = input('(L)bs or (K)g? ')
+# weight = input('How much do you weigh? ')
+# unit_of_weight = input('(L)bs or (K)g? ')
 
-if unit_of_weight.upper() == 'L':
-    result = float(weight) * .45
-    print(f'Your weight is {result} Kilos')
+# if unit_of_weight.upper() == 'L':
+#     result = float(weight) * .45
+#     print(f'Your weight is {result} Kilos')
 
-elif unit_of_weight.upper() == "K":
-    result = float(weight) * 2.20462
-    print(f'Your weight is {result} Lbs')
+# elif unit_of_weight.upper() == "K":
+#     result = float(weight) * 2.20462
+#     print(f'Your weight is {result} Lbs')
+
+# i = 1
+# while i <= 5:
+#     print(i)
+#     i = i + 1
+# print('Done')
+
+
+magic_number = 9
+guess_count = 0
+guess_limit = 3
+while guess_count < guess_limit:
+    guess = int(input("Guess: "))
+    guess_count += 1
+    if guess == magic_number:
+        print('you win!')
+        break
+    elif guess_count == guess_limit and guess == magic_number:
+        print('you win!')
+        break
+    elif guess_count == guess_limit:
+        print('out of tries!')
+        break
+    else:
+        print('try again!')
