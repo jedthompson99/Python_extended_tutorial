@@ -100,11 +100,22 @@
 # else:
 #     print('it\'s not a hot day')
 
-username = input("Name: ")
+# username = input("Name: ")
 
-if len(username) <= 3:
-    print('name must be at least 4 characters')
-elif len(username) > 50:
-    print('name must be less than 50 characters')
-else:
-    print('looks good')
+# if len(username) <= 3:
+#     print('name must be at least 4 characters')
+# elif len(username) > 50:
+#     print('name must be less than 50 characters')
+# else:
+#     print('looks good')
+
+weight = input('How much do you weigh? ')
+unit_of_weight = input('(L)bs or (K)g? ')
+
+if unit_of_weight.upper() == 'L':
+    result = float(weight) * .45
+    print(f'Your weight is {result} Kilos')
+
+elif unit_of_weight.upper() == "K":
+    result = float(weight) * 2.20462
+    print(f'Your weight is {result} Lbs')
