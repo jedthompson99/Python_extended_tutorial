@@ -179,9 +179,17 @@
 # for item in range(5, 10, 2):
 #     print(item)
 
-prices = [10, 20, 30]
+# For Loops
 
-total = 0
-for price in prices:
-    total += price
-print(f"Total: {total}")
+# prices = [10, 20, 30]
+
+# total = 0
+# for price in prices:
+#     total += price
+# print(f"Total: {total}")
+
+# Nested Loops
+
+# for x in range(4):
+#     for y in range(3):
+#         print(f'({x}, {y})')
