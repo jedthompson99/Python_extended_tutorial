@@ -148,11 +148,40 @@
 
 # Car Game
 
-prompt = input('>')
-while prompt != "quit":
-    if prompt == 'start'.upper:
-        print('Car started...Ready to go!')
-    elif prompt == 'stop'.upper:
-        print('Car Stopped')
-    else:
-        print('I don't understand that...')
+
+# car_started = False
+# while True:
+#     prompt = input("> ").lower()
+#     if prompt == 'start':
+#         if car_started:
+#             print("Car is already started!")
+#         else:
+#             car_started = True
+#             print('Car started...Ready to go!')
+#     elif prompt == 'stop':
+#         if not car_started:
+#             print('Car is already stopped')
+#         else:
+#             car_started = False
+#             print('Car stopped.')
+#     elif prompt == 'help':
+#         print("""
+# start - to start the car
+# stop - to stop the car
+# quit - to quit
+#         """)
+#     elif prompt == 'quit':
+#         break
+#     else:
+#         print('Sorry, I don\'t understand that')
+
+
+# for item in range(5, 10, 2):
+#     print(item)
+
+prices = [10, 20, 30]
+
+total = 0
+for price in prices:
+    total += price
+print(f"Total: {total}")
