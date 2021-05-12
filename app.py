@@ -126,21 +126,33 @@
 #     i = i + 1
 # print('Done')
 
+# SECRET NUMBER GAME
 
-magic_number = 9
-guess_count = 0
-guess_limit = 3
-while guess_count < guess_limit:
-    guess = int(input("Guess: "))
-    guess_count += 1
-    if guess == magic_number:
-        print('you win!')
-        break
-    elif guess_count == guess_limit and guess == magic_number:
-        print('you win!')
-        break
-    elif guess_count == guess_limit:
-        print('out of tries!')
-        break
+# magic_number = 9
+# guess_count = 0
+# guess_limit = 3
+# while guess_count < guess_limit:
+#     guess = int(input("Guess: "))
+#     guess_count += 1
+#     if guess == magic_number:
+#         print('you win!')
+#         break
+#     elif guess_count == guess_limit and guess == magic_number:
+#         print('you win!')
+#         break
+#     elif guess_count == guess_limit:
+#         print('out of tries!')
+#         break
+#     else:
+#         print('try again!')
+
+# Car Game
+
+prompt = input('>')
+while prompt != "quit":
+    if prompt == 'start'.upper:
+        print('Car started...Ready to go!')
+    elif prompt == 'stop'.upper:
+        print('Car Stopped')
     else:
-        print('try again!')
+        print('I don't understand that...')
