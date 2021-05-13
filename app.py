@@ -148,7 +148,6 @@
 
 # Car Game
 
-
 # car_started = False
 # while True:
 #     prompt = input("> ").lower()
@@ -179,6 +178,7 @@
 # for item in range(5, 10, 2):
 #     print(item)
 
+
 # For Loops
 
 # prices = [10, 20, 30]
@@ -188,8 +188,135 @@
 #     total += price
 # print(f"Total: {total}")
 
+
 # Nested Loops
 
 # for x in range(4):
 #     for y in range(3):
 #         print(f'({x}, {y})')
+
+
+# Nested loops "x" challenge
+
+# numbers = [5, 2, 5, 2, 2]
+# for x_count in numbers:
+#     output = ""
+#     for count in range(x_count):
+#         output = output + 'X'
+#     print(output)
+
+# for x in range(5):
+#     print(x)
+
+
+# More Lists
+
+# names = ['John', 'Bob', 'Mosh', 'Sarah', 'Mary']
+# print(names[0])
+
+# names = ['John', 'Bob', 'Mosh', 'Sarah', 'Mary']
+# print(names[4])
+
+# names = ['John', 'Bob', 'Mosh', 'Sarah', 'Mary']
+# print(names[2:])
+
+# names = ['John', 'Bob', 'Mosh', 'Sarah', 'Mary']
+# print(names[:4])
+
+# names = ['John', 'Bob', 'Mosh', 'Sarah', 'Mary']
+# print(names[2:4])
+
+# names = ['John', 'Bob', 'Mosh', 'Sarah', 'Mary']
+# print(names[4])
+
+# names = ['John', 'Bob', 'Mosh', 'Sarah', 'Mary']
+# names[0] = 'Jon'
+# print(names)
+
+# numbers = [5, 2, 9, 2, 2]
+# max = numbers[0]
+# for number in numbers:
+#     if number > max:
+#         max = number
+# print(max)
+
+# 2D Lists
+
+# matrix = [
+#     [1, 2, 3],
+#     [4, 5, 6],
+#     [7, 8, 9]
+# ]
+
+# print(matrix[0][1])
+
+# returns 2
+
+
+# matrix = [
+#     [1, 2, 3],
+#     [4, 5, 6],
+#     [7, 8, 9]
+# ]
+
+# matrix[0][1] = 20
+# print(matrix[0][1])
+
+# returns 20
+
+# matrix = [
+#     [1, 2, 3],
+#     [4, 5, 6],
+#     [7, 8, 9]
+# ]
+
+# for row in matrix:
+#     for item in row:
+#         print(item)
+
+# Returns 1-9 in a column
+
+
+# List Functions/Methods
+
+# numbers = [5, 2, 1, 7, 4]
+# numbers.append(20)
+# print(numbers)
+
+# to end of list
+
+# numbers = [5, 2, 1, 7, 4]
+# numbers.insert(0, 10)
+# print(numbers)
+
+# insert in place of
+
+# numbers = [5, 2, 1, 7, 4]
+# numbers.remove(5)
+# print(numbers)
+
+# removes
+
+# numbers = [5, 2, 1, 7, 4]
+# numbers.clear()
+# print(numbers)
+
+# clears out the list
+
+# numbers = [5, 2, 1, 7, 4]
+# numbers.pop() #remove last item from list
+# print(numbers)
+
+# numbers = [5, 2, 1, 7, 4]
+# numbers.index(5) (if printed, this would return 0)
+# print(numbers.index(5))
+
+# returns 0, in the index number
+
+# numbers = [5, 2, 1, 7, 4]
+# print(50 in numbers)
+
+# returns false
+
+numbers = [5, 2, 1, 7, 5, 4]
+print(numbers.count(5))
