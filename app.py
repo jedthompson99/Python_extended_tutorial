@@ -289,13 +289,13 @@
 # numbers.insert(0, 10)
 # print(numbers)
 
-# insert in place of
+# insert 10 in place of index number 0
 
 # numbers = [5, 2, 1, 7, 4]
 # numbers.remove(5)
 # print(numbers)
 
-# removes
+# removes 5 (all of them)
 
 # numbers = [5, 2, 1, 7, 4]
 # numbers.clear()
@@ -318,5 +318,24 @@
 
 # returns false
 
-numbers = [5, 2, 1, 7, 5, 4]
-print(numbers.count(5))
+# numbers = [5, 2, 1, 7, 5, 4]
+# print(numbers.count(5))
+
+# retuns: 2
+
+# numbers = [5, 2, 1, 7, 4]
+# numbers.sort()
+# numbers.reverse()
+# print(numbers)
+
+# numbers = [5, 2, 1, 7, 4]
+# numbers2 = numbers.copy()
+# numbers.append(10)
+# print(numbers2)
+
+# numbers = [5, 2, 1, 7, 7, 4, 2, 5]
+# uniques = []
+# for number in numbers:
+#     if number not in uniques:
+#         uniques.append(number)
+# print(uniques)
