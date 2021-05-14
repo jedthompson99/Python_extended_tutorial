@@ -389,16 +389,29 @@
 
 # Project: Dictionary and Tuples
 
-number_words = {
-    "0": "zero",
-    "1": "one",
-    "2": "two",
-    "3": "three",
-    "4": "four"
-}
+# number_words = {
+#     "0": "zero",
+#     "1": "one",
+#     "2": "two",
+#     "3": "three",
+#     "4": "four"
+# }
 
-phone_number = input('Phone: ')
+# phone_number = input('Phone: ')
+# output = ""
+# for digits in phone_number:
+#     output += number_words.get(digits, "#") + " "
+# print(output)
+
+message = input(">")
+words = message.split(' ')
+
+emojis = {
+
+    ":)": "😁",
+    ":(": "😩",
+}
 output = ""
-for digits in phone_number:
-    output += number_words.get(digits) + " "
+for word in words:
+    output += emojis.get(word, word) + " "
 print(output)
