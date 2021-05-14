@@ -339,3 +339,66 @@
 #     if number not in uniques:
 #         uniques.append(number)
 # print(uniques)
+
+
+# Tuples
+
+# Immutable. They cannot be modified.
+
+# numbers = (1, 2, 3, 4, 5)
+# print(numbers[0])
+
+# operators that work with tuples: these give information only
+# .Count and .index
+
+# Tuples - unpacking. Works with lists also.
+
+# coordinates = (1, 2, 3)
+# x = coordinates[0]
+# y = coordinates[1]
+# z = coordinates [2]
+# x, y, z = coordinates
+
+# dictionary
+
+
+# name: john smith
+# email: john@email.com
+# phone: 234234
+
+# dictionaries are used
+
+# customer = {
+#     "name": "john smith",
+#     "age": 30
+#     "is-verified": True
+# }
+
+# [customer["name"] = "Jack Smith"
+
+# this would alter "name" in dictionary to "Jack Smith"
+
+# customer[name]
+# print([customer[name])
+
+# #if we use wrong case for the "name" it will throw an error. However, if we use "get" it won't error, and instead will say "none."
+
+# print(customer.get("birthdate"))
+
+# result: none
+
+# Project: Dictionary and Tuples
+
+number_words = {
+    "0": "zero",
+    "1": "one",
+    "2": "two",
+    "3": "three",
+    "4": "four"
+}
+
+phone_number = input('Phone: ')
+output = ""
+for digits in phone_number:
+    output += number_words.get(digits) + " "
+print(output)
