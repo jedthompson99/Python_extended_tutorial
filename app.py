@@ -403,15 +403,40 @@
 #     output += number_words.get(digits, "#") + " "
 # print(output)
 
-message = input(">")
-words = message.split(' ')
+# message = input(">")
+# words = message.split(' ')
 
-emojis = {
+# emojis = {
 
-    ":)": "😁",
-    ":(": "😩",
-}
-output = ""
-for word in words:
-    output += emojis.get(word, word) + " "
-print(output)
+#     ":)": "😁",
+#     ":(": "😩",
+# }
+# output = ""
+# for word in words:
+#     output += emojis.get(word, word) + " "
+# print(output)
+
+
+# functions
+
+# def greet_user(first_name, last_name):
+#     print(f'Hi {first_name} {last_name}!')
+#     print('hi there')
+#     print('welcome aboard')
+
+
+# print('start')
+# greet_user("John", "Smith")
+# greet_user('Mary', 'Smith')
+# print('Finish')
+
+# "aruments, or parameters" -
+# ordered arguments - we have to put 'Mary' first, and then 'Smith'. Have the be the same number of arguments as defined in the function.
+
+# "Keyword arguments" greet_user(first_name="John"). You "call out" the arguments by using the key_words. You must call out all key words. If you do one, then all.
+
+def square(number):
+    return number * number
+
+
+print(square(3))
