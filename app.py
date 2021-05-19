@@ -502,10 +502,47 @@
 
 # #Conditions
 
-class Person:
-    def talk(self):
-        print('talk')
+# class Person:
+#     def __init__(self, name):
+#         self.name = name
+
+#     def talk(self):
+#         print('talk')
 
 
-john = Person()
-john.talk()
+# john = Person()
+# john.talk()
+
+
+# Built-in modules: RANDOM EXAMPLE
+
+import random
+
+# for i in range(3):
+#     print(random.random())
+
+
+# for i in range(3):
+#     print(random.randint(10, 20))
+
+
+# members = ['john', 'mary', 'bob', 'mosh']
+# leader = random.choice(members)
+# print(leader)
+
+
+dice = ['1', '2', '3', '4', '5', '6']
+result = random.choice(dice)
+result2 = random.choice(dice)
+print(result + " " + result2)
+
+
+class Dice:
+    def roll(self):
+        first = random.randint(1, 6)
+        second = random.randint(1, 6)
+        return(first, second)
+
+
+dice = Dice()
+print(dice.roll())
