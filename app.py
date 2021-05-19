@@ -435,8 +435,77 @@
 
 # "Keyword arguments" greet_user(first_name="John"). You "call out" the arguments by using the key_words. You must call out all key words. If you do one, then all.
 
-def square(number):
-    return number * number
+# Defining functions
+# def square(number):
+#     return number * number
+
+# print(square(3))
+
+# def emoji_converter(message):
+#     words = message.split(" ")
+#     emoji = {
+#     ":)": "😁",
+#     ":(": "😩",
+#     }
+#     output = ""
+#     for word in words:
+#         output += emojis.get(word, word) + " "
+#     return output
+
+# message = input(">")
+# print(emoji_converter(message))
+
+# Exception (an error that crashes a program). This line of code will make the
+
+# try:
+#     age = int(input("Age: "))
+#     income = 20000
+#     risk = income / age
+#     print(age)
+# except ValueError:
+#     print('Invalid value')
+
+# except ZeroDivisionError:
+#     print('Invalid value')
+
+# classes
+
+# class Point:
+#     def move(self):
+#         print("move")
+
+#     def draw(self):
+#         print("draw")
 
 
-print(square(3))
+# point1 = Point()
+# point1.draw()
+
+
+# # Constructors
+# class Point:
+#     def __init__(self, x, y):
+#         self.x = x
+#         self.y = y
+
+#     def move(self):
+#         print("move")
+
+#     def draw(self):
+#         print("draw")
+
+
+# point = Point(10, 20)
+# print(point.x)
+# # point.x = 11
+# # print(point.x)
+
+# #Conditions
+
+class Person:
+    def talk(self):
+        print('talk')
+
+
+john = Person()
+john.talk()
