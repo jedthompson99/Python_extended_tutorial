@@ -516,7 +516,7 @@
 
 # Built-in modules: RANDOM EXAMPLE
 
-import random
+# import random
 
 # for i in range(3):
 #     print(random.random())
@@ -531,18 +531,28 @@ import random
 # print(leader)
 
 
-dice = ['1', '2', '3', '4', '5', '6']
-result = random.choice(dice)
-result2 = random.choice(dice)
-print(result + " " + result2)
+# dice = ['1', '2', '3', '4', '5', '6']
+# result = random.choice(dice)
+# result2 = random.choice(dice)
+# print(result + " " + result2)
 
 
-class Dice:
-    def roll(self):
-        first = random.randint(1, 6)
-        second = random.randint(1, 6)
-        return(first, second)
+# class Dice:
+#     def roll(self):
+#         first = random.randint(1, 6)
+#         second = random.randint(1, 6)
+#         return(first, second)
 
 
-dice = Dice()
-print(dice.roll())
+# dice = Dice()
+# print(dice.roll())
+
+
+# Files and Directories
+from pathlib import Path
+
+# Absolute or
+# Relative Path
+
+path = Path('ecommerce')
+print(path.exists())
