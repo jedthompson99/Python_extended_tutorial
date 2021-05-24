@@ -354,12 +354,12 @@
 
 # Tuples - unpacking. Works with lists also.
 
-coordinates = (1, 2, 3)
-x = coordinates[0]
-y = coordinates[1]
-z = coordinates[2]
-p = coordinates[3]
-x, y, z, p = coordinates
+# coordinates = (1, 2, 3, 4)
+# x = coordinates[0]
+# y = coordinates[1]
+# z = coordinates[2]
+# p = coordinates[3]
+# x, y, z, p = coordinates
 
 # dictionary
 
@@ -370,13 +370,13 @@ x, y, z, p = coordinates
 
 # dictionaries are used
 
-customer = {
-    "name": "john smith",
-    "age": 30,
-    "is-verified": True
-}
+# customer = {
+#     "name": "john smith",
+#     "age": 30,
+#     "is-verified": True
+# }
 
-customer["name"] = "Jack Smith"
+# customer["name"] = "Jack Smith"
 
 # this would alter "name" in dictionary to "Jack Smith"
 
@@ -385,7 +385,7 @@ customer["name"] = "Jack Smith"
 
 # #if we use wrong case for the "name" it will throw an error. However, if we use "get" it won't error, and instead will say "none."
 
-print(customer.get("name"))
+# print(customer.get("name"))
 
 # result: none
 
