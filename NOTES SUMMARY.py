@@ -564,5 +564,3 @@
 #     print(file)
 
 # *this would print every .py file in a directory
-
-E
